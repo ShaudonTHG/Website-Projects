@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="CSS.css">
+<style>
+    html {
+        transform: scale(0.8);
+    }
+
+</style>
+    <div class="calculator">
+      
+        <div class="display">
+
+            <input type="text" id="inputBox" value="0" placeholder="0" disabled>
+
+        </div>
+        <div class="row">
+            <button type="button" class="opr">AC</button>
+            <button type="button" class="opr">DEL</button>
+            <button type="button" class="opr">%</button>
+            <button type="button" class="opr">/</button>
+        </div>
+        <div class="row">
+            <button type="button">7</button>
+            <button type="button">8</button>
+            <button type="button">9</button>
+            <button type="button" class="opr">*</button>
+        </div>
+        <div class="row">
+            <button type="button">4</button>
+            <button type="button">5</button>
+            <button type="button">6</button>
+            <button type="button" class="opr">+</button>
+        </div>
+        <div class="row">
+            <button type="button">1</button>
+            <button type="button">2</button>
+            <button type="button">3</button>
+            <button type="button" class="opr">-</button>
+        </div>
+        <div class="row">
+            <button type="button" id="plusMinus">(-)</button>
+            <button type="button">0</button>
+            <button type="button">.</button>
+            <button type="button" id="eqBtn">=</button>
+        </div>
+    
+
+    
+        <button id="increaseSize"><img src= "1x/pic_increaseSize.jpg.png" alt="increaseSize" width="auto" height="auto"></button>
+        <button id="decreaseSize"><img src="1x\pic_decreaseSize.jpg.png" alt="decreaseSize" width="auto" height="auto"></button>
+        
+        
+        <button onclick="activateDarkMode()" class="dark-mode"><img src="1x/pic_Moon.jpg.png" alt="pic_Moon" width="50" height="50"></button>
+        <button onclick="activateLightMode()" class="light-mode"><img src="1x/pic_Sun.jpg.png"  alt="pic_Sun" width="50" height="50"></button>
+        
+        <div class="row">
+        <style>
+          body {
+            background-color: #f0f0f0; 
+            color: #333333; 
+          }
+          .dark-mode {
+            background-color: #333333; 
+            color: #f0f0f0; 
+          }
+          .dark-mode button {
+            background-color: #ffffff; 
+            color: #333333; 
+          }
+          .light-mode {
+            background-color: #ffffff; 
+            color: #333333; /
+          }
+          .light-mode button {
+            background-color: #333333;
+            color: #ffffff; 
+          }
+
+          
+        </style> 
+        <textarea placeholder="Write something..."></textarea>
+
+         <script src="JavaScript.js"></script>
