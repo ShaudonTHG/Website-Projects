@@ -1,0 +1,332 @@
+body {
+  max-width: 1920px;
+  margin: auto;
+  background-color: #212121;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #00635D;
+  position: absolute;
+  width: 100%;
+  font-family: "Arial Black", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  padding: 70px;
+  bottom: 60px;
+  left: 50px;
+}
+
+.navbar a:hover {
+  color: rgb(197, 197, 197);
+}
+
+.IconPic {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 60px;
+}
+
+.trapezoid1 {
+  border-bottom: 50px solid #212121;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  width: 600px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.trapezoid2 {
+  border-bottom: 50px solid #00635D;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  width: 300px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%) rotate(180deg);
+}
+/* Navbar */
+
+/* Navbar Media */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .navbar {
+      background-color: #00635D;
+      position: absolute;
+      width: 100%;
+      font-family: "Arial Black", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100px;
+      padding: 0;
+      margin: 0;
+  }
+
+  .navbar ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 50px;
+  }
+
+  .navbar a {
+      color: #f2f2f2;
+      text-decoration: none;
+      font-size: 20px;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      bottom: 30px;
+  }
+
+  .navbar a:hover {
+      color: rgb(197, 197, 197);
+  }
+
+  .IconPic {
+      width: auto;
+      height: 100px;
+      margin: 0;
+      position: relative;
+      bottom: 10px;
+  }
+
+  .trapezoid1 {
+      border-bottom: 20px solid #212121;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      width: 600px;
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .trapezoid2 {
+      border-bottom: 20px solid #00635D;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      width: 300px;
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%) rotate(180deg);
+  }
+}
+
+
+
+/* Adout-Us */
+.Adout-Us-Column {
+  position: relative;
+  bottom: 20px;
+  margin-bottom: 100px;
+
+}
+
+.AboutTilte {
+  position: relative;
+  display: block;
+  bottom: -300px;
+}
+.AboutTilte-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.AboutTilte-container > div {
+  background-color: #00635D;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+}
+
+.profile-pic {
+  width: 590px;
+  height: 530px;
+  margin: 0;
+  right: -10px;
+  position: relative;
+  top: -18px;
+}
+
+.Adout-Us {
+  position: relative;
+  display: block;
+  bottom: -350px;
+  border: 13px solid #00635D;
+  padding: 0px;
+  margin: 0px;
+  height: 690px;
+  margin-bottom: 20px;
+}
+.Adout-Us-Box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0px;
+  padding: 20px;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0px;
+  color: white;
+  left: -20px;
+  position: relative;
+  bottom: 5px;
+}
+
+.Adout-Us-Box-Text {
+  font-size: 18px;
+  text-align: left;
+  margin: 0px;
+  color: white;
+  position: relative;
+  padding: 30px;
+  width: 90%;
+  bottom: 53px;
+  left: 2px;
+  line-height: 1.5;
+}
+
+.Adout-Us-title {
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+  padding: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #00635D;
+  color: white;
+  font-weight: bold;
+}
+/* Adout-Us */
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .Adout-Us-Column {
+    position: relative;
+    bottom: 150px;
+    margin-bottom: -50px;
+  }
+  
+  .AboutTilte {
+    position: relative;
+    display: block;
+    bottom: -300px;
+  }
+  .AboutTilte-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  
+  .AboutTilte-container > div {
+    background-color: #00635D;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .profile-pic {
+    width: 270px;
+    height: 300px;
+    margin: 0;
+    right: -10px;
+    position: relative;
+    top: -18px;
+  }
+  
+  .Adout-Us {
+    position: relative;
+    display: block;
+    bottom: -350px;
+    border: 13px solid #00635D;
+    padding: 0px;
+    margin: 0px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+  .Adout-Us-Box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px;
+    padding: 20px;
+  }
+  
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0px;
+    left: -20px;
+    position: relative;
+
+  }
+  
+  .Adout-Us-Box-Text {
+    font-size: 10px;
+    text-align: left;
+    margin: 0px;
+    color: white;
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    bottom: 53px;
+    left: 2px;
+    line-height: 1.4;
+  }
+
+  .Adout-Us-title {
+    font-size: 13px;
+    text-align: center;
+    margin: 0px;
+    position: relative;
+    padding: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #00635D;
+    color: white;
+    font-weight: bold;
+  }
+}
+  

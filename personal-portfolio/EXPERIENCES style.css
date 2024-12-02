@@ -1,0 +1,343 @@
+body {
+  max-width: 1920px;
+  margin: auto;
+  background-color: #212121;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+.EXPERIENCES-Column {
+  position: relative;
+  bottom: 560px;
+  margin-top: 1100px;
+}
+
+.EXPERIENCES-section {
+  float: left;
+  width: 125%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.EXPERIENCES-sectionA {
+  float: left;
+  width: 125%;
+  padding: 10px;
+  height: 300px;
+}
+
+
+
+.EXPERIENCES-Tilte {
+  position: relative;
+  display: block;
+  bottom: -450px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.EXPERIENCES-row {
+  position: relative;
+  top: 500px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.EXPERIENCES-rowA {
+  position: relative;
+  top: -20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.EXPERIENCES-Column-Tilte {
+  color: white;
+  font-size: 40px;
+  border-style: solid;
+}
+
+
+
+.EXPERIENCES-Tilte-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  
+}
+
+.EXPERIENCES-Tilte-container > div {
+  background-color: #00635D;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+}
+
+
+
+
+.EXPERIENCES-grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 80px 80px;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+.EXPERIENCES-grid-container > div {
+  padding: 20px 0;
+}
+
+
+
+.EXPERIENCES-grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto  ;
+  width: 100%;
+
+}
+
+.EXPERIENCES-grid-container2 > div {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+  border: 10px solid #00635D;
+
+}
+
+.item1 {
+  grid-row: 1 / span 2;
+  height: 90%;
+  width: 170%;
+
+}
+
+.item2 {
+  height: 85%;
+  position: relative;
+  margin-bottom: 50px;
+  left: 130px;
+  width: 600px;
+}
+
+.item2Text {
+  margin-top: 15px;
+  width: 600px;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.item3 {
+  position: relative;
+  height: 1%;
+  margin-top: 10px;
+  left: 130px;
+  width: 600px;
+  top: -36px;
+}
+
+.loadbar {
+  width: 400px;
+  background-color: #00635D;
+  position: absolute;
+  top: 5px;
+  padding: 8px 50px;
+  margin: 0px;
+  left: 80px;
+  
+}
+
+.EXPERIENCESPic {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+.EXPERIENCESPic2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 700px;
+  top: 100px;
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+  .EXPERIENCES-Column {
+    position: relative;
+    bottom: 560px;
+    margin-top: 1100px;
+  }
+  
+  .EXPERIENCES-section {
+    float: left;
+    width: 125%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .EXPERIENCES-section,
+  .EXPERIENCES-sectionA {
+    width: 90%; /* Ensure sections scale appropriately */
+    padding: 10px;
+    margin-bottom: 100px; /* Add spacing between rows */
+    box-sizing: border-box;
+  }
+
+  
+  
+  .EXPERIENCES-Tilte {
+    position: relative;
+    display: block;
+    bottom: -450px;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .EXPERIENCES-row,
+  .EXPERIENCES-rowA {
+    display: flex;
+    flex-direction: column; /* Stack one on top of the other */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    right: 80px;
+    margin-bottom: -30px;
+  }
+
+  
+  .EXPERIENCES-Column-Tilte {
+    color: white;
+    font-size: 40px;
+    border-style: solid;
+  }
+  
+  
+  
+  .EXPERIENCES-Tilte-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+  }
+  
+  .EXPERIENCES-Tilte-container > div {
+    background-color: #00635D;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  
+  
+  
+  .EXPERIENCES-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 80px 80px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .EXPERIENCES-grid-container > div {
+    padding: 20px 0;
+  }
+  
+  
+  
+  .EXPERIENCES-grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Define a proportionate layout */
+    gap: 20px; /* Add spacing between grid items */
+  }
+
+  
+  .EXPERIENCES-grid-container2 > div {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+    border: 10px solid #00635D;
+  
+  }
+  
+  .item1 {
+    grid-row: 1 / span 2;
+    height: 90%;
+    width: 170%;
+  
+  }
+  
+  .item1 img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto; /* Center the image */
+  }
+
+  .item2 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  
+  .item2 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .item3 .loadbar {
+    width: 100%;
+    max-width: 400px;
+    background-color: #00635D;
+    padding: 8px;
+    margin: 0px auto 0; 
+  }
+
+  
+  .EXPERIENCESPic {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+  
+  .EXPERIENCESPic2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 500px;
+  }
+  
+
+  
+
+}

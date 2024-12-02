@@ -1,0 +1,373 @@
+body {
+  max-width: 1920px;
+  margin: auto;
+  background-color: #212121;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+.PROJECTS-Column {
+  position: relative;
+  bottom: 20px;
+  margin-bottom: 100px;
+}
+
+.PROJECTSTilte {
+  position: relative;
+  display: block;
+  bottom: -300px;
+}
+.PROJECTSTilte-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.PROJECTSTilte-container > div {
+  background-color: #00635D;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+}
+
+.PROJECTS {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 13px solid #00635D;
+  padding: 0px;
+  height: 680px;
+  width: 90%;
+  bottom: -700px;
+}
+
+.PROJECTS-Box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0px;
+  padding: 20px;
+}
+
+.PROJECTSTilte {
+  position: relative;
+  display: block;
+  bottom: -300px;
+}
+.PROJECTSTilte-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.PROJECTSTilte-container > div {
+  background-color: #00635D;
+  text-align: center;
+  font-size: 30px;
+  height: 50px;
+  width: 100%;
+  margin: 0px;
+}
+
+
+.container {
+  position: relative;
+  top: 0px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.Slides-Button {
+  background-color: rgb(31, 168, 123);
+  left: 25px;
+  position: absolute;
+  top: 530px;
+}
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  color: white;
+  background-color: #00635c71;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 3px 3px 3px 3px;
+  padding-left: 110px;
+  padding-right: 110px;
+  
+}
+
+.next {
+  left: 600px;
+  border-radius: 3px 0 0 3px;
+}
+
+.next:hover {
+  background-color: #00635D;
+}
+
+.prev:hover {
+  background-color: #00635D;
+}
+
+.PROJECTSPic {
+  width: 900px;
+  height: 600px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  font-weight: bolder;
+  left: 330px;
+  position: absolute;
+  bottom: 30px;
+  width: 200px;
+}
+.column {
+  float: left;
+  width: 20%;
+  margin: 0px;
+  padding: 18px;
+  position: relative; 
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+
+.sub-title {
+  text-align: center;
+  background-color: #00635D;
+  color: white;
+  position: absolute;
+  font-size: 10px;
+  width: 81%; 
+  margin: 0px;
+  padding: 5px 0; 
+  bottom: 160px; 
+  left: 50px;
+}
+
+.sub-titleA {
+  text-align: center;
+  background-color: #00635D;
+  color: white;
+  position: absolute;
+  font-size: 10px;
+  width: 81%; 
+  margin: 0px;
+  padding: 5px 0; 
+  bottom: 160px; 
+}
+
+
+.demo {
+  opacity: 0.3;
+  bottom: 165px;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+}
+
+.active,
+.demo:hover {
+  opacity: 80;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+
+
+  .PROJECTS-Column {
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .PROJECTSTilte {
+    position: relative;
+    display: block;
+    bottom: -300px;
+  }
+  .PROJECTSTilte-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  
+  .PROJECTSTilte-container > div {
+    background-color: #00635D;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  .PROJECTS {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 13px solid #00635D;
+    padding: 0px;
+    height: 570px;
+    width: 90%;
+    bottom: -650px;
+  }
+  
+  .PROJECTS-Box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px;
+    padding: 20px;
+  }
+  
+  .PROJECTSTilte {
+    position: relative;
+    display: block;
+    bottom: -300px;
+  }
+  .PROJECTSTilte-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  
+  .PROJECTSTilte-container > div {
+    background-color: #00635D;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+  }
+  
+  
+  .container {
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  
+  .Slides-Button {
+    background-color: rgb(31, 168, 123);
+    left: 25px;
+    position: absolute;
+    top: 400px;
+  }
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    background-color: #00635c71;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 3px 3px 3px 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  
+  .next {
+    left: 400px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .next:hover {
+    background-color: #00635D;
+  }
+  
+  .prev:hover {
+    background-color: #00635D;
+  }
+  
+  
+  
+  .PROJECTSPic {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    font-weight: bolder;
+    left: 150px;
+    position: absolute;
+    bottom: 60px;
+    width: 200px;
+  }
+  .column {
+    float: left;
+    width: 30%;
+    margin: 0px;
+    padding: 18px;
+    position: relative; 
+    margin-bottom: 20px;
+    height: 100%;
+  }
+  
+
+  
+  
+  .sub-title {
+    text-align: center;
+    background-color: #00635D;
+    color: white;
+    position: absolute;
+    font-size: 6px;
+    width: 90%; 
+    margin: 0px;
+    padding: 5px 0; 
+    bottom: 140px; 
+    left: 15px;
+  }
+  
+
+  
+  
+  .demo {
+    opacity: 0.3;
+    bottom: 135px;
+    position: relative;
+    width: 100px;
+    height: 80px;
+    right: 60px;
+    padding-left: 30px;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 80;
+  }
+  
+
+
+}
